@@ -1,0 +1,21 @@
+body{
+    background-color: linen;
+}
+
+h1{
+    color: maroon;
+    margin-left: 40px;
+}
+
+#AID{
+    text-align: center;
+    color:red;
+}
+
+h2{
+    text-align: justify;
+    color:greenyellow;
+}
+
+.center{text-align: center;color:indigo;}
+p.center{text-align: center;color:khaki;}
