@@ -19,3 +19,39 @@ h2{
 
 .center{text-align: center;color:indigo;}
 p.center{text-align: center;color:khaki;}
+
+#h1_colour{text-align: center; color: aqua;}
+
+/*
+div{
+    padding-top:250px; 
+    padding-right:750px;
+    padding-bottom:25px;
+    padding-left: 50px;
+}
+*/
+
+#rcorners1{border-radius: 25px; background: red; padding: 20px; width: 200px; height: 150px;}/* bg color with rounded borders */
+#rcorners2{border-radius: 25px; border: 2px solid green; padding: 20px; width: 200px; height: 150px;} /* Rounded corner for an element with a border */
+#rcorners3{border-radius: 25px; background: url(bg_testing.jpg); /* rounded corner for bg image */
+background-position: left top;
+background-repeat: repeat;
+padding: 2px;
+width: 200px;
+height: 150px;
+}
+
+@keyframes example {
+    from {background-color: red; }
+    to{background-color: yellow;}
+}
+
+#anim{
+    width: 100px;
+    height: 100px;
+    position:relative;
+    background-color: red;
+    animation-name: example ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
