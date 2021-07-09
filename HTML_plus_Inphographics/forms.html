@@ -7,6 +7,53 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>forms</h1>
+    <form>
+        <div>
+            <label for="name">name:</label><!--online label     before the input box-->
+            <input type="text" placeholder="Name" id="name" required>    <!--type: string; value: text; placeholder: background text-->
+            <input type="submit">
+        </div>
+    </form>
+
+    <form >
+        <div>
+            <label for="name2">Name2:</label>
+            <input type="text" id="name2" maxlength="10">
+            <!--maxlength, minlength--> 
+        </div>
+    </form>
+
+    <form>
+        <div>
+            <label for="name3">Name3:</label>
+            <input type="text" id="name3" minlength="15">
+            <input type="submit" value="Send to everyone" required>
+            <!--type: text, submit, email, password, color, date, number, reset-->
+        </div>
+    </form>
+
+    <form>
+        <div>
+            <label for="colour">Color: </label>
+            <input type="color" required id="colour" >
+        </div>
+    </form>
+
+    <form>
+            <label for="mail">Email: </label>
+            <input type="email " pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="mail" required>
+            <input type="submit" value="send to everyone">
+        
+            <!-- pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" -->
+
+    </form>
+
+    <form>
+        <div>
+            <label for="pss">Password: </label>
+            <input type="password"  id="pss" required>
+        </div>
+    </form>
 </body>
 </html>
