@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra tags</title>
+
+    <style>
+        img{width: 300px;}
+    </style>
+</head>
+<body>
+    <!-- <img src="assets/spiderman_1.png" alt=""> -->
+    <!-- <img src="assets/spiderman_2.png" alt="">
+    <img src="assets/spiderman_3.png" alt=""> -->
+
+
+    <!-- <figure>
+        <img src="assets/spiderman_1.png" alt="">
+        <figcaption>spiderman_1</figcaption>
+    </figure> -->
+
+    <picture><!--adapts to the resolution of the device-->
+
+        <!--QUERYS: allow us to manipulate our images with source-->
+
+        <source srcset="assets/spiderman_3.png" media="(min-width: 1000px)">
+
+        <!--hierarchy of min-width > min-width -->
+        <source srcset="assets/spiderman_1.png" media="(min-width: 500px)">
+        
+        <img src="assets/spiderman_2.png" alt="">
+    </picture>
+
+    <details> <!--Plegable tags-->
+        <summary>Spiderman Powers</summary>
+        <ul>
+            <li>Superstrength</li>
+            <li>Webshooters</li>
+            <li>Speed</li>
+        </ul>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nobis quidem iure! Velit, obcaecati atque, ex voluptas saepe possimus nam praesentium iure, excepturi nisi repudiandae dolorem asperiores tenetur sequi necessitatibus debitis aliquid iste incidunt aut et! Incidunt optio, molestiae ipsam totam velit earum illo impedit fugit, itaque obcaecati amet ipsum!
+        </p>
+    </details>
+
+</body>
+</html>
