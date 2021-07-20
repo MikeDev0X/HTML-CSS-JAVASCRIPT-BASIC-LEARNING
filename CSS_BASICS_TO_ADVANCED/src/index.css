@@ -1,0 +1,115 @@
+#head1{
+    color: red;
+    text-align: center;
+    font-style: italic;
+    font-weight: 200; /*boldness value of the text*/
+    text-decoration: overline; /*Underline, overline*/
+    text-transform: lowercase;
+}
+
+p{
+    letter-spacing: 2px;
+    word-spacing: 2px; /*can also use negative values*/
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#borders{
+    /*
+    border-style: double; [none, double, pointed, dashed]
+    border-width: 8px; 
+    border-color: red;*/
+
+    border:7px double blue; /*width, style, color*/
+    border-radius: 7px; /*rounded borders*/
+
+    padding: 20px 16px 28px 24px; /*top, right, bottom, left*/
+    padding: 20px, 16px; /*top and bottom, left and right*/
+    margin: 1.5em;
+}
+
+#divlink{
+    background-color: crimson;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    margin:0;
+}
+
+#linkstyle{
+    font-size: 2em;
+    border: .5em double blue;
+    border-radius: 8px; 
+    text-decoration: none;
+}
+
+#linkstyle:link{
+    color: blueviolet;
+}
+
+#linkstyle:visited{
+    color: chartreuse;
+}
+
+#linkstyle:hover{
+    color: white;
+}
+
+#linkstyle:active{
+    color: orange;
+}
+
+#buttondiv{
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 10px;
+    margin: 0;
+}
+
+.buttonstyle{
+    font-size: 1.5em;
+    color: blue;
+    background-color: black;
+    border: none; /*removes button default's border*/
+    border-radius: 5px;
+    padding: 8px 25px;
+    outline: none; /*removes the squared margin that appears after click*/
+    cursor: pointer;
+    
+}
+
+.buttonstyle:hover{
+    background-color: blue;
+    color: orange;
+}
+
+#disbuttonstyle{
+    background-color: red;
+    padding: 8px 16px;
+    font-size: 1.5em;
+    border:none;
+    border-radius: 5px;
+    cursor: not-allowed; /*disbled object*/
+}
+
+#disbuttonstyle:hover{
+    opacity: 0.4;
+    color: white;
+    background-color: yellowgreen;
+}
+
+.label_icons{
+    padding-left: 10px;
+}
+
+#newbuttonstyle{
+    background-color: yellowgreen;
+    border: none;
+    font-size: 1.7em;
+    cursor: pointer;
+    color: blue;
+}
+
+#newbuttonstyle:hover{
+    color: red;
+}

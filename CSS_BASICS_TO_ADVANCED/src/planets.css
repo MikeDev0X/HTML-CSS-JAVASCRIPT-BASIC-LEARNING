@@ -1,0 +1,9 @@
+#ordered{
+    list-style-type: upper-alpha;
+    list-style-position: inside; /*removes the default indentation between the points and the text*/
+}
+
+#unordered{
+    list-style-type: square;
+    list-style-position: outside;
+}
