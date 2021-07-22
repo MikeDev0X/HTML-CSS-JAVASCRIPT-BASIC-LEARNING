@@ -113,3 +113,26 @@ p{
 #newbuttonstyle:hover{
     color: red;
 }
+
+.imagesproperties{
+    height: auto;  
+    width: 30%;
+}
+
+.div_imgs{
+    margin:0;
+    padding: 0;
+
+    display: inline;
+    /* visibility:hidden; */
+    /* display: none; */
+}
+
+.span{
+    background-color: blue;
+    color: white;
+    width: 135px;
+    height: 90px;
+
+    display: inline-block; /*allows to make a block with spans*/
+}

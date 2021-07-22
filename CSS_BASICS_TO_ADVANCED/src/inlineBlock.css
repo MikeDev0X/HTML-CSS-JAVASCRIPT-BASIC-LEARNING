@@ -1,0 +1,40 @@
+header{
+    background-color: lightblue;
+    height: 80px;
+}
+
+section{
+    background-color: lightsalmon;
+    height: 515px;
+    width: 30%;
+    display: inline-block;
+}
+
+aside{
+    background-color: lightseagreen;
+    height:515px;
+    width: 49%;
+    display: inline-block;
+}
+
+footer{
+    background-color: lightgreen;
+    height: 98px;
+}
+
+body{
+    margin:0;
+}
+
+#sec1{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 120px;
+    margin-right: 10px;
+}
+#sec2{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
